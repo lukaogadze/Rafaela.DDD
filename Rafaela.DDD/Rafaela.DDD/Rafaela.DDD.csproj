@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Luka Ogadze</Authors>
+    <Company>Rafaela</Company>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <Description>This package includes helper code for domain-driven design.</Description>
+    <Copyright>Copyright (c) 2019 Rafaela</Copyright>
+    <PackageProjectUrl>https://github.com/lukaogadze/Rafaela.DDD</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lukaogadze/Rafaela.DDD</RepositoryUrl>
+    <PackageTags>DDD Tactical Patterns Entity ValueObject</PackageTags>    
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="licenses\LICENSE.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
+  
 </Project>

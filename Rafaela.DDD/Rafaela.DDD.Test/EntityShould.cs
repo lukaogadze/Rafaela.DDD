@@ -33,7 +33,9 @@ namespace Rafaela.DDD.Test
             var obj = new object();
 
             var actual1 = product.Equals(obj);
-            var actual2 = product == obj;
+#pragma warning disable CS0253 // Possible unintended reference comparison; right hand side needs cast
+            bool actual2 = product == obj;
+#pragma warning restore CS0253 // Possible unintended reference comparison; right hand side needs cast
 
             Assert.IsFalse(actual1);
             Assert.IsFalse(actual2);
